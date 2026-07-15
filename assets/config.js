@@ -3,6 +3,5 @@ window.AG_CONFIG = {
   phone: "07378 169004",
   email: "office@agpropertyservice.com",
   whatsapp: "447378169004",
-  formEndpoint: "",
-  googleReviewUrl: ""
+  formEndpoint: ""
 };
