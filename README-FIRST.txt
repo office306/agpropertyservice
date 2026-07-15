@@ -28,3 +28,19 @@ Upload everything inside this folder to the root of the existing GitHub reposito
 
 PROJECT PHOTOS
 12 original AG Property Services project images have been added to the images folder and connected to the homepage and Our Work page.
+
+
+CONTACT FIXES
+Phone and email are now shown:
+- In the top contact bar
+- In the homepage hero
+- In the footer
+- In the sticky mobile contact bar
+- In all page content placeholders
+
+PHOTO LAYOUT
+Gallery and homepage images have been resized for a cleaner desktop and mobile layout.
+
+
+REVIEWS
+Eight genuine customer reviews have been added to the homepage and testimonials page.

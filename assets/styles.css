@@ -102,3 +102,112 @@ code{color:var(--green)}
 .hero-photo{width:100%;height:100%;min-height:460px;object-fit:cover;border-radius:23px}
 @media(max-width:950px){.gallery-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.gallery-grid{grid-template-columns:1fr}.gallery-card img{height:220px}}
+
+.top-contact{
+  background:#111716;
+  border-bottom:1px solid #26302e;
+  color:#c9d2cf;
+  font-size:14px;
+}
+.top-contact-inner{
+  min-height:38px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:24px;
+}
+.top-contact a{color:var(--green);font-weight:700}
+
+.mobile-contact-bar{
+  display:none;
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:100;
+  background:#0b0f0e;
+  border-top:1px solid #2a3432;
+  grid-template-columns:repeat(3,1fr);
+  box-shadow:0 -8px 24px rgba(0,0,0,.45);
+}
+.mobile-contact-bar a{
+  padding:14px 8px;
+  text-align:center;
+  font-weight:800;
+  color:#fff;
+  border-right:1px solid #26302e;
+}
+.mobile-contact-bar a:last-child{
+  background:var(--green);
+  color:#06140f;
+  border-right:0;
+}
+
+/* More compact, polished project imagery */
+.hero-photo{
+  min-height:0 !important;
+  height:430px !important;
+  object-fit:cover;
+}
+.project-photo{
+  height:210px !important;
+  object-fit:cover;
+}
+.gallery-card img{
+  height:210px !important;
+  object-fit:cover;
+}
+.projects{
+  gap:16px !important;
+}
+.gallery-grid{
+  gap:16px !important;
+}
+.project-body{
+  padding:18px !important;
+}
+.gallery-card .project-body{
+  padding:18px !important;
+}
+.project h3,.gallery-card h3{
+  margin-top:0;
+  margin-bottom:8px;
+}
+.project p,.gallery-card p{
+  margin-bottom:0;
+  font-size:15px;
+}
+
+@media(max-width:950px){
+  .top-contact-inner{justify-content:center}
+  .hero-photo{height:360px !important}
+  .project-photo,.gallery-card img{height:190px !important}
+}
+@media(max-width:620px){
+  body{padding-bottom:58px}
+  .top-contact{display:none}
+  .mobile-contact-bar{display:grid}
+  .hero-photo{height:260px !important}
+  .project-photo,.gallery-card img{height:180px !important}
+}
+
+.stars{
+  color:#f4c95d;
+  letter-spacing:.08em;
+  font-size:20px;
+  margin-bottom:10px;
+}
+.review h3{
+  margin:0 0 10px;
+  font-size:20px;
+}
+.review p{
+  color:var(--muted);
+  margin:0 0 16px;
+}
+.reviews-full{
+  grid-template-columns:repeat(2,1fr);
+}
+@media(max-width:760px){
+  .reviews-full{grid-template-columns:1fr}
+}
