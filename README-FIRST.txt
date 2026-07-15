@@ -1,10 +1,30 @@
-BEFORE PUBLISHING
-1. Open assets/config.js.
-2. Add the real phone number and email address.
-3. Connect the contact form to email or Google Sheets.
-4. Replace project placeholders with genuine photographs.
-5. Replace testimonial placeholders with approved reviews.
+AG PROPERTY SERVICES — PREMIUM V3
+
+CONTACT DETAILS INCLUDED
+Phone: 07378 169004
+Email: office@agpropertyservice.com
+WhatsApp: 447378169004
+
+NEW FEATURES
+- Premium homepage and trust sections
+- Booking page
+- Refurbishment estimator
+- Call and WhatsApp buttons
+- Quote form with photo-upload field
+- FAQs
+- Services and local pages
+- Project gallery structure
+- SEO sitemap
+
+OLD PHOTOS
+The original Manus image host is no longer available. Upload the old photos from your Mac or phone and place them in the images folder. Then update the gallery cards to reference those image filenames.
+
+FORM
+Add the working Google Apps Script or CRM endpoint in assets/config.js.
+Photo uploads require a backend supporting multipart uploads.
 
 UPLOAD
-Upload everything inside this folder to the root of the hosting account.
-index.html must be visible at the root.
+Upload everything inside this folder to the root of the existing GitHub repository, replacing current files.
+
+PROJECT PHOTOS
+12 original AG Property Services project images have been added to the images folder and connected to the homepage and Our Work page.
