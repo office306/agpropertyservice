@@ -1,0 +1,2 @@
+
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.year').forEach(x=>x.textContent=new Date().getFullYear());document.querySelectorAll('.contactForm').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const s=f.parentElement.querySelector('.formStatus');s.style.display='block';s.textContent='The website is ready. Add your email/form endpoint in assets/config.js to activate enquiries.';}));});
