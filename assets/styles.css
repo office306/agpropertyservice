@@ -99,3 +99,10 @@ h2.title{font-size:46px;margin:14px 0 18px}
   .form textarea,.form .full,.filebox{grid-column:auto}.btn{width:100%}.hero-photo{height:245px}
   .project img,.gallery-card img{height:175px}
 }
+
+/* Contact readability and mobile navigation. */
+.contact a:not(.btn){color:var(--green);text-decoration:underline;overflow-wrap:anywhere}
+.mobile-menu{display:none}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+@media(max-width:1100px){.links{display:none}.mobile-menu{display:block;position:relative}.mobile-menu summary{cursor:pointer;padding:12px;color:var(--green);font-weight:800}.mobile-links{position:absolute;right:0;top:100%;width:230px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--shadow)}.mobile-links a{display:block;padding:9px 12px}.navin>.btn{display:none}}
+@media(max-width:650px){.brand{font-size:12px;letter-spacing:.025em}.logo{flex-shrink:0}.navin{gap:10px}.wrap{padding:0 18px}.contact{padding:24px}.floating-actions{display:none}.contact,.hero-grid>div,.two>div{min-width:0}}
