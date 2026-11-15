@@ -138,3 +138,17 @@ h1,h2.title{font-family:Georgia,'Times New Roman',serif;letter-spacing:-.035em}
 .footer{background:#061320;border-top-color:rgba(216,181,104,.25)}
 .mobile-contact-bar{background:#061320}
 @media(max-width:650px){.hero{padding:64px 0}.hero .lead{font-size:18px}.brand span{font-size:11px}.logo{width:44px;height:44px}}
+
+/* Portfolio photo presentation: non-destructive improvements to real job photography */
+.gallery-grid{gap:24px;align-items:stretch}
+.gallery-card{display:flex;flex-direction:column;background:#10273B;border-color:rgba(216,181,104,.22);box-shadow:0 14px 34px rgba(0,0,0,.16)}
+.gallery-image-link{position:relative;display:block;overflow:hidden;background:#0B2033}
+.gallery-card .gallery-image-link img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:center;filter:brightness(1.055) contrast(1.035) saturate(1.06);transition:transform .28s ease,filter .28s ease}
+.gallery-image-link:hover img{transform:scale(1.025);filter:brightness(1.09) contrast(1.04) saturate(1.08)}
+.gallery-expand{position:absolute;right:12px;bottom:12px;background:rgba(7,24,39,.9);border:1px solid rgba(216,181,104,.5);border-radius:5px;padding:5px 10px;color:#fff;font-size:12px;font-weight:700}
+.gallery-card .project-body{padding:20px 22px 24px;flex:1}
+.gallery-card .project-body h3{margin:0 0 8px;color:#fff}
+.gallery-card .project-body p{margin:0;color:#B7C5D0}
+.projects .project img{filter:brightness(1.045) contrast(1.03) saturate(1.06)}
+@media(max-width:650px){.gallery-card .gallery-image-link img{height:auto;aspect-ratio:4/3}.gallery-grid{gap:20px}}
+@media(prefers-reduced-motion:reduce){.gallery-card .gallery-image-link img{transition:none}}
